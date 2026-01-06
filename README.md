@@ -7,7 +7,7 @@
 
 **Professional trajectory planning system for autonomous vehicles** combining global path planning (A*) and local trajectory generation (Cubic Splines) with real-time obstacle avoidance.
 
-> 🎓 **Academic Project** | Part of EVA Autonomous Vehicle R&D Platform - Unit 5: Global and Local Trajectory Planning
+> 🎓 **Academic Project** |  Global and Local Trajectory Planning
 
 ---
 
@@ -200,7 +200,7 @@ ros2 topic pub /goal_pose geometry_msgs/PoseStamped \
            orientation: {w: 1.0}}}" --once
 ```
 
-### 3. Visualize in RViz2
+### 3. Visualize in RViz2 (not tested yet ...)
 
 ```bash
 rviz2 -d eva_planning/rviz/planning.rviz
@@ -342,39 +342,8 @@ ros2 run eva_planning eva_planning_node \
 
 ---
 
-## 🤝 Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Code Style
-
-- C++: Follow [ROS 2 C++ Style Guide](https://docs.ros.org/en/foxy/Contributing/Code-Style-Language-Versions.html)
-- Python: Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/)
-- Use `clang-format` for C++ and `black` for Python
-
----
-
-## 📖 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@software{eva_trajectory_planning2025,
-  author = {Your Name},
-  title = {EVA Trajectory Planning System},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/YOUR_USERNAME/eva_trajectory_planning}
-}
-```
 
 ### Related Publications
 
@@ -399,11 +368,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Author**: Your Name  
-**Email**: your.email@example.com  
-**Project**: EVA Autonomous Vehicle Platform - Unit 5
-
-**Issues**: Please report bugs via [GitHub Issues](https://github.com/YOUR_USERNAME/eva_trajectory_planning/issues)
+**Author**: Zakaria Jouhari  
+**Email**: zakaria.jouhari.info@gmail.com  
+**Project**: EVA Autonomous Vehicle Platform 
 
 ---
 
@@ -423,10 +390,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ Star this repository if you find it helpful!**
 
-[Report Bug](https://github.com/YOUR_USERNAME/eva_trajectory_planning/issues) · 
-[Request Feature](https://github.com/YOUR_USERNAME/eva_trajectory_planning/issues) · 
-[Documentation](./docs/)
 
 </div>
