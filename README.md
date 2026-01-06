@@ -106,5 +106,4 @@ ros2 topic hz /planning/global_path
 MIT
 
 ## Contact
-
-Issues: https://github.com/YOUR_USERNAME/eva_trajectory_planning/issues
+zakaria.jouhari.info@gmail.com
