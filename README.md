@@ -2,7 +2,7 @@
 
 ROS 2 trajectory planning system combining A* global planning with cubic spline local path generation.
 NB : this project was optimized to be deployed on a jetson nano b01 ( using a docker image of ubuntu 20.04 ) ,but we conducted initial tests and simulation on a laptop (uses ubuntu 22.04 natively ) , you can see demonstrations .
-![Test ](demonstration/rviz_Trajectory_planning.png)
+![Test ](Demonstration/rviz_Trajectory_planning.png)
 ## Features
 
 - **Global Planning**: A* algorithm for optimal pathfinding
